@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Container & Spacing</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Container -->
-    <div>
-      <article>
-        <h3>Article One</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem laboriosam libero molestiae recusandae accusantium
-          voluptates? Expedita dignissimos amet eveniet dolore nobis odio a
-          sunt, maiores quasi. Modi amet quos dolores!
-        </p>
-      </article>
+    <div class="container mx-auto">
+        <article>
+            <h3>Article One</h3>
+            <div class="p-2.5 border border-slate-300">
+                <p class="mx-0 p-0 border border-teal-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Exercitationem laboriosam libero molestiae recusandae accusantium
+                    voluptates? Expedita dignissimos amet eveniet dolore nobis odio a
+                    sunt, maiores quasi. Modi amet quos dolores!</p>
+            </div>
+        </article>
 
-      <!-- Margin -->
+        <!-- Margin -->
 
-      <!-- Padding -->
+        <!-- Padding -->
 
-      <!-- Space Between X -->
+        <!-- Space Between X -->
 
-      <!-- Space Between Y -->
+        <!-- Space Between Y -->
+        <div class="flex flex-row space-x-[120px] m-4 p-4">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+        </div>
+        <div class="flex flex-row-reverse space-x-32 space-x-reverse">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
 
 <!-- Breakpoinsts for Container 
