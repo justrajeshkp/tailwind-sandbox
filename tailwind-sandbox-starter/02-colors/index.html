@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Colors</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Default colors -->
     <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
     <!-- Text Colors -->
+    <p class="text-black flex flex-col max-width text-center  mx-5 mx-auto ">Tailwind is awesome</p>
 
+    <div class="divide-y my-10 border border-pink-200 mx-auto width-[300px] bg-cyan-300">
+        <div class="item">Number is 1</div>
+        <div class="item">Number is 2</div>
+        <div class="item">Number is 3</div>
+        <div class="item">Number is 4</div>
+        <div class="item">Number is 5</div>
+    </div>
     <!-- Background Colors -->
-
+    <p class="text-2xl text-yellow-400 underline decoration-fuchsia-400 cursor-pointer block text-center  mx-auto ">
+        Tailwind is
+        awesome
+    </p>
+    <ul>
+        <li class="flex items-center accent-lime-500"><input type="checkbox"
+                class="mr-5 w-12 h-12  border-rounded-lg">lime</li>
+        <li class="flex items-center"><input type="checkbox"
+                class="mr-5 w-12 h-12 accent-purple-500 border-rounded-lg">purple</li>
+        <li class="flex items-center"><input type="checkbox"
+                class="mr-5 w-12 h-12 accent-zinc-500 border-rounded-lg">zinc</li>
+        <li class="flex items-center"><input type="checkbox"
+                class="mr-5 w-12 h-12 accent-slate-500 border-rounded-lg">slate</li>
+        <li class="flex items-center"><input type="checkbox"
+                class="mr-5 w-12 h-12 accent-fuchsia-500 border-rounded-lg">fuchsia</li>
+        <li class="flex items-center"><input type="checkbox"
+                class="mr-5 w-12 h-12 accent-indigo-500 border-rounded-lg">indigo</li>
+        <li class="flex items-center"><input type="checkbox" class="mr-5 w-12 h-12 accent-amber-500 border-rounded-lg"
+                checked>amber</li>
+        <li class="flex items-center"><input type="checkbox" class="mr-5 w-12 h-12 accent-sky-500 border-rounded-lg">sky
+        </li>
+        <li class="flex items-center"><input type="checkbox" class="mr-5 w-12 h-12 rounded border-lg">navy</li>
+    </ul>
     <!-- Text Underline -->
 
     <!-- Border Colors -->
@@ -28,5 +60,6 @@
     <!-- Accent Colors -->
 
     <!-- Arbitrary Colors -->
-  </body>
+</body>
+
 </html>
