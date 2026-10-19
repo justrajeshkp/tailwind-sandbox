@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
     <title>Typography</title>
-  </head>
-  <body>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    'serif': ["Playfair", "serif"],
+                    'sans': ['Montserrat', 'sans'],
+                    'mono': ['Courier'],
+                    'mono': ['Fira Code'],
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
     <!-- Font Family -->
+    <div class="font-serif text-2xl">Tailwind is awesome</div>
+    <div class="font-sans text-2xl">Tailwind is awesome</div>
+    <div class="font-mono text-2xl">Tailwind is awesome</div>
 
     <!-- Font Size -->
 
@@ -25,7 +54,8 @@
     <!-- Decoration Offset -->
 
     <!-- Text Transform -->
-  </body>
+</body>
+
 </html>
 
 <!-- Font Family
